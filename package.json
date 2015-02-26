@@ -7,18 +7,19 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "node static_server"
+    "test": "./node_modules/karma/bin/karma start --single-run --browsers PhantomJS",
+    "karma": "node_modules/karma/bin/karma start"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:alu0100697032/temperature_conversor.git"
+    "url": "git@github.com:alu0100697032/temperature_conversor_karma.git"
   },
   "author": "Víctor Hernández Pérez",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alu0100697032/temperature_conversor/issues"
+    "url": "https://github.com/alu0100697032/temperature_conversor_karma/issues"
   },
-  "homepage": "https://github.com/alu0100697032/temperature_conversor",
+  "homepage": "https://github.com/alu0100697032/temperature_conversor_karma",
   "devDependencies": {
     "blanket": "^1.1.6",
     "chai": "^2.1.0",
