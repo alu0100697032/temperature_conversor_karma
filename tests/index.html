@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../css/styles.css" type="text/css" />
     <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="mocha.css" />
+    <script  src="../js/temperature.js"></script>
   </head>
   <body>
     <div id="mocha"></div>
@@ -48,10 +49,9 @@
     <script src="mocha.js"></script>
     <!--<script type="text/javascript" src="../static_server.js"></script>-->
     <script src="../js/blanket.js" data-cover-adapter="../js/mocha-blanket.js"></script>
-    <script  src="../js/temperature.js"></script>
+    <script  src="../js/temperature.js" data-cover></script>
     <script>mocha.setup('tdd')</script>
     <script src="tests.js"></script>
-    <script  src="../js/temperature.js" data-cover></script>
     <script>
       mocha.run();
     </script>
